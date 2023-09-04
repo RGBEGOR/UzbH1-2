@@ -13,14 +13,6 @@ background: url('../img/Bg-main.jpg')no-repeat center/cover fixed;
 
 }
 
-
-header{
-position: fixed;
-width: 100%;
-z-index: 99;
-
-}
-
 ul{
 list-style: none;
 }
@@ -55,9 +47,6 @@ color: rgb(144, 86, 55);
 
 }
 
-.context{
-padding-top: 80px;
-}
 .context__intro{
 text-align: center;
 padding-bottom: 100px;
@@ -649,3 +638,26 @@ font-family:'ShantellSans-Bold';
 font-size: 20px;
 color: rgb(144, 86, 55);
 }
+
+.homework__content{
+    padding: 15px 15px 15px 15px;
+    border-color: red;
+    border: 3px solid rgb(139, 128, 10);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    .Expl-1{
+    font-size: 20px;
+    font-family:'ShantellSans-Regular';
+    color: red;
+    text-decoration: underline;
+      
+    }
+        
+    .Exes-2{
+    font-size: 20px;
+    font-family:'ShantellSans-Regular';
+    color: red;
+    }
